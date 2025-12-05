@@ -1,8 +1,8 @@
 {
   "available": true,
-  "version": "0.0.4-beta.1",
-  "release_notes": "Update 0.0.4-beta.1",
-  "url": "https://raw.githubusercontent.com/Secureflow-SRL/tracemq-updates/main/TraceMQ_0.0.4-beta.1_windows_amd64.exe",
-  "checksum": "cf237e276260f76d491c8df577521aeda8d67ccc1bfc0e33e0d217d0922bc331",
-  "signature": "T819h0HjaKoMwHGYGSG3La1cvzTcVaylEe6LOQ+29KZimsT0NvviB8muijORa4XxFkm3Ha7MLhZiegacOJP5DA=="
+  "version": "0.0.4-beta.14",
+  "release_notes": "Update 0.0.4-beta.14",
+  "url": "https://raw.githubusercontent.com/Secureflow-SRL/tracemq-updates/main/TraceMQ_0.0.4-beta.14_windows_amd64.exe",
+  "checksum": "fd2d0a598fde10959d59721b2c903a21fdd0d90cd908e138b7191ebd62e36126",
+  "signature": "z9y+9yQANCjRh3HwoRbS4heJ6oJQy590KLGm0VslhYqKvHdnVlZXRMKBJqY3GYOdpXCId42UbPQ7gqZaYa0lDA=="
 }
