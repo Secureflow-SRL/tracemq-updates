@@ -1,8 +1,1 @@
-{
-  "available": true,
-  "version": "0.0.6-alpha.1",
-  "release_notes": "Maintenance Release",
-  "url": "https://raw.githubusercontent.com/Secureflow-SRL/tracemq-updates/main/TraceMQ_0.0.6-alpha.1_windows_amd64.exe",
-  "checksum": "1154cbec8821f9615c759782f8cf3ee9cd922c70e9b1ab0d645dfefa55953946",
-  "signature": "nIQIhhdksFUM7Tc1jkPLNPqto+dbSX5A9Ri/CuLNzG0nOJq0FksgorBmVMouiUts/McopG02BLoXBiJvEF5zBA=="
-}
+Failed to read private key: open $PrivateKeyPath: Le fichier sp├®cifi├® est introuvable.
