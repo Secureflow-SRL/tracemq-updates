@@ -8,13 +8,13 @@
                        "url":  "https://github.com/Secureflow-SRL/tracemq-updates/releases/download/v0.0.7-alpha.13/TraceMQ_v0.0.7-alpha.13_windows_amd64.exe",
                        "arch":  "amd64",
                        "os":  "windows",
-                       "hash":  "35b9741ad5b7c40dcceec9d95db4b4d3403b43c93d02adb931ff51bdfd90e140"
+                       "hash":  "9921dac04bdce456cf02fcc3e5d96ae15af34faea3cb67e8e8d7a0a303b058e0"
                    },
                    {
                        "url":  "https://github.com/Secureflow-SRL/tracemq-updates/releases/download/v0.0.7-alpha.13/TraceMQ_v0.0.7-alpha.13_linux_amd64",
                        "arch":  "amd64",
                        "os":  "linux",
-                       "hash":  "1a899bde6179e229a7768af20d5646d7c538413f7fa3e1cc7fc5b9514908a996"
+                       "hash":  "087f2c73e31daf99b929124d12af215be9c06cd90f898e699c4fe40052e784fa"
                    }
                ]
 }
