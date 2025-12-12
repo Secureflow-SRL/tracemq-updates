@@ -1,46 +1,44 @@
 # TraceMQ Updates Registry
 
-Bienvenue sur le registre officiel des mises à jour de **TraceMQ**.
+Welcome to the official **TraceMQ** updates registry.
 
-Ce dépôt sert de source de vérité pour le mécanisme de mise à jour automatique de l'application TraceMQ. Il héberge les manifestes de versions signés numériquement, garantissant l'intégrité et l'authenticité de chaque mise à jour distribuée à nos utilisateurs.
+This repository serves as the source of truth for the TraceMQ application auto-update mechanism. It hosts digitally signed release manifests, ensuring the integrity and authenticity of every update distributed to our users.
 
-> ⚠️ **Avertissement : Phase de Test (Beta)**
+> ⚠️ **Warning: Testing Phase (Beta)**
 >
-> L'application **TraceMQ** est actuellement en phase de développement actif et de test (Bêta). Bien que nous fassions tout notre possible pour garantir la stabilité et la sécurité du logiciel :
-> *   Des bugs ou des comportements inattendus peuvent survenir.
-> *   L'utilisation de ce logiciel se fait à vos propres risques.
-> *   **SecureFlow SRL** décline toute responsabilité en cas de perte de données, d'interruption de service ou de tout autre dommage direct ou indirect résultant de l'utilisation de TraceMQ.
+> **TraceMQ** is currently in active development and testing phase (Beta). While we strive to ensure software stability and security:
+> *   Bugs or unexpected behaviors may occur.
+> *   Use of this software is at your own risk.
+> *   **SecureFlow SRL** disclaims all liability for any data loss, service interruption, or any other direct or indirect damage resulting from the use of TraceMQ.
 
-## 🔒 Sécurité et Intégrité
+## 🔒 Security and Integrity
 
-Chez **SecureFlow**, la sécurité n'est pas une option.
-Chaque mise à jour référencée ici suit un processus strict :
+Every update referenced here follows a strict process:
 
-1.  **Signature Cryptographique** : Tous les manifestes (`latest-*.json`) sont signés avec une clé privée offline (Ed25519).
-2.  **Vérification** : L'application cliente TraceMQ vérifie systématiquement cette signature avec la clé publique embarquée avant d'accepter une mise à jour.
-3.  **Transparence** : L'historique des versions est immuable et auditable via l'historique Git de ce dépôt.
+1.  **Cryptographic Signing**: All manifests (`latest-*.json`) are signed with an offline private key (Ed25519).
+2.  **Verification**: The TraceMQ client application systematically verifies this signature using the embedded public key before accepting any update.
+3.  **Transparency**: The version history is immutable and auditable via this repository's Git history.
 
-## Canaux de Distribution
+## Distribution Channels
 
-Nous proposons plusieurs canaux de mise à jour pour répondre à différents besoins :
+We offer several update channels to meet different needs:
 
-| Canal | Description | Stabilité | Fichier Manifeste |
+| Channel | Description | Stability | Manifest File |
 | :--- | :--- | :--- | :--- |
-| **Stable** | Versions robustes et testées pour la production. | ⭐⭐⭐⭐⭐ | [`latest-stable.json`](./latest-stable.json) |
-| **Beta** | Nouvelles fonctionnalités en avant-première, testées. | ⭐⭐⭐ | [`latest-beta.json`](./latest-beta.json) |
-| **Alpha** | Développement actif ("Bleeding Edge"). Pour tests uniquement. | ⭐ | [`latest-alpha.json`](./latest-alpha.json) |
+| **Stable** | Robust versions tested for production. | ⭐⭐⭐⭐⭐ | [`latest-stable.json`](./latest-stable.json) |
+| **Beta** | New features in preview, tested. | ⭐⭐⭐ | [`latest-beta.json`](./latest-beta.json) |
+| **Alpha** | Active development ("Bleeding Edge"). For testing only. | ⭐ | [`latest-alpha.json`](./latest-alpha.json) |
 
-## 🛠️ Structure du Dépôt
+## 🛠️ Repository Structure
 
-Ce dépôt est maintenu automatiquement par notre pipeline de CI/CD.
+This repository is maintained automatically by our CI/CD pipeline.
 
-*   `latest-[channel].json` : Contient les métadonnées de la dernière version (version, date, hash SHA-256 des binaires, liens de téléchargement).
-*   `latest-[channel].json.sig` : La signature détachée du manifeste correspondant.
-*   `flake.nix` : Configuration pour les environnements Nix (optionnel).
+*   `latest-[channel].json`: Contains metadata for the latest release (version, date, SHA-256 hash of binaries, download links).
+*   `latest-[channel].json.sig`: The detached signature of the corresponding manifest.
+*   `flake.nix`: Configuration for Nix environments (optional).
 
 ---
 
-> **Note :** Ce dépôt ne contient pas le code source de l'application. Pour le code source, voir [Secureflow-SRL/TraceMQ](https://github.com/Secureflow-SRL/TraceMQ).
 
 ---
 © 2025 **SecureFlow SRL**. All rights reserved.
