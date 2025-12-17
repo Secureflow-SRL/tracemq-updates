@@ -1,20 +1,20 @@
 {
     "app":  "TraceMQ",
     "channel":  "alpha",
-    "version":  "0.3.0-alpha.3",
+    "version":  "0.3.0-alpha.4",
     "release_date":  "2025-12-17",
     "assets":  [
                    {
-                       "url":  "https://github.com/Secureflow-SRL/tracemq-updates/releases/download/v0.3.0-alpha.3/TraceMQ_v0.3.0-alpha.3_windows_amd64.exe",
+                       "url":  "https://github.com/Secureflow-SRL/tracemq-updates/releases/download/v0.3.0-alpha.4/TraceMQ_v0.3.0-alpha.4_windows_amd64.exe",
                        "arch":  "amd64",
                        "os":  "windows",
-                       "hash":  "76123378a05272ead0ae278082805c2fc16fa5550ff9dddbb02b885e533ae56f"
+                       "hash":  "0f6493a255ba7426ce7054f94a62a23e6856b5fae7eaef19552bd95606092889"
                    },
                    {
-                       "url":  "https://github.com/Secureflow-SRL/tracemq-updates/releases/download/v0.3.0-alpha.3/TraceMQ_v0.3.0-alpha.3_linux_amd64",
+                       "url":  "https://github.com/Secureflow-SRL/tracemq-updates/releases/download/v0.3.0-alpha.4/TraceMQ_v0.3.0-alpha.4_linux_amd64",
                        "arch":  "amd64",
                        "os":  "linux",
-                       "hash":  "e4ea46d624c3beda559a2b07dd7dad8ec22bce6d55704e3d3822098821f516ac"
+                       "hash":  "6bc35f5eeb9a1b8d08f616109f2704505cfc99586c809c5413d2e9ebb182a1fd"
                    }
                ]
 }
